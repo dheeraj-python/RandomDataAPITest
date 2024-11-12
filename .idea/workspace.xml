@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97b5e7f5-b60a-4967-907b-7f56aaadf7cf" name="Changes" comment="Test_Script for Credit Card">
-      <change beforePath="$PROJECT_DIR$/src/test_creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_creditcard.py" afterDir="false" />
-    </list>
+    <list default="true" id="97b5e7f5-b60a-4967-907b-7f56aaadf7cf" name="Changes" comment="Test_Script for Credit Card" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dheeraj-python"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dheeraj-python/RandomDataAPITest",
+    "accountId": "47ad1544-99e1-4734-b97d-dc110b353f7e"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -132,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731444319248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test_Script for Credit Card">
+      <option name="closed" value="true" />
+      <created>1731444593428</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731444593428</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
