@@ -33,7 +33,7 @@ def test_creditcard_status():
                'Content-Type'] == 'application/json; charset=utf-8', f"Expected Content-Type 'application/json; charset=utf-8',got {headers['Content-Type']}"
     assert 'Content-Length' in headers, "Content-Length header is missing"
 
-    #Validate Cookies are present or not
+    #Validate Cookies are present or not!!
     cookies = response.cookies
     assert cookies != True
     print(cookies)
