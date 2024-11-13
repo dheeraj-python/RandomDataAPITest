@@ -3,7 +3,7 @@
 C**reated automated test script for Random Data API for three end points:-**</br>
 **Credit Card-** </br>https://random-data-api.com/api/v2/credit_cards</br>
 https://random-data-api.com/api/v2/beers</br>
-https://random-data-api.com/api/v2/addresses
+
 
 Result - Credit Card Endpoint
 
@@ -31,4 +31,5 @@ pytest -s src/tests/test_sample.py --alluredir=allure_result
 
 allure serve allure_result
 
-![image](https://github.com/user-attachments/assets/dab9b985-c282-4936-9f38-a93e6b7461e2)
+![image](https://github.com/user-attachments/assets/66aa8e2c-8a67-423c-acf6-70865cba94db)
+
