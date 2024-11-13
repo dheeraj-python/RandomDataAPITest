@@ -31,5 +31,6 @@ pytest -s src/tests/test_sample.py --alluredir=allure_result
 
 allure serve allure_result
 
-![image](https://github.com/user-attachments/assets/66aa8e2c-8a67-423c-acf6-70865cba94db)
+![image](https://github.com/user-attachments/assets/7e6e236e-58de-4389-bc14-03792a3aa702)
+
 
