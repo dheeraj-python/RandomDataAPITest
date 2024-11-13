@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97b5e7f5-b60a-4967-907b-7f56aaadf7cf" name="Changes" comment="Test_Script for Credit Card" />
+    <list default="true" id="97b5e7f5-b60a-4967-907b-7f56aaadf7cf" name="Changes" comment="added requirements.txt">
+      <change afterPath="$PROJECT_DIR$/src/test_beer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_creditcard.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_creditcard.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dheeraj-python"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dheeraj-python&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dheeraj-python/RandomDataAPITest",
-    "accountId": "47ad1544-99e1-4734-b97d-dc110b353f7e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dheeraj-python/RandomDataAPITest&quot;,
+    &quot;accountId&quot;: &quot;47ad1544-99e1-4734-b97d-dc110b353f7e&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2olInAL62jYYGXi9Td99QmrvUEs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +48,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_creditcard.test_creditcard.executor": "Run",
+    "Python tests.Python tests for test_creditcard.test_creditcard_cookies.executor": "Run",
+    "Python tests.Python tests for test_creditcard.test_creditcard_dict.executor": "Run",
+    "Python tests.Python tests for test_creditcard.test_creditcard_headers.executor": "Run",
+    "Python tests.Python tests for test_creditcard.test_creditcard_json_fields.executor": "Run",
+    "Python tests.Python tests for test_creditcard.test_creditcard_json_fields_data_type.executor": "Run",
     "Python tests.Python tests for test_creditcard.test_creditcard_status.executor": "Run",
     "Python tests.Python tests for test_creditcard_endpoints.test_baseurl.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -56,8 +65,8 @@
       <recent name="C:\Users\DheerajPC\PycharmProjects\RandomAPITests\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_creditcard.test_creditcard_status">
-    <configuration name="Python tests for src.test_baseurl.test_baseurl" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_creditcard.test_creditcard_headers">
+    <configuration name="Python tests for test_creditcard.test_creditcard_cookies" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="RandomAPITests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,11 +77,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;src.test_baseurl.test_baseurl&quot;" />
+      <option name="_new_target" value="&quot;test_creditcard.test_creditcard_cookies&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_creditcard.test_creditcard" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_creditcard.test_creditcard_dict" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="RandomAPITests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,11 +92,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_creditcard.test_creditcard&quot;" />
+      <option name="_new_target" value="&quot;test_creditcard.test_creditcard_dict&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_creditcard.test_creditcard_status" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_creditcard.test_creditcard_headers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="RandomAPITests" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,15 +107,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_creditcard.test_creditcard_status&quot;" />
+      <option name="_new_target" value="&quot;test_creditcard.test_creditcard_headers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_creditcard.test_creditcard_json_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="RandomAPITests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_creditcard.test_creditcard_json_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_creditcard.test_creditcard_json_fields_data_type" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="RandomAPITests" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_creditcard.test_creditcard_json_fields_data_type&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard_status" />
-        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard" />
-        <item itemvalue="Python tests.Python tests for src.test_baseurl.test_baseurl" />
+        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard_headers" />
+        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard_cookies" />
+        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard_json_fields_data_type" />
+        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard_json_fields" />
+        <item itemvalue="Python tests.Python tests for test_creditcard.test_creditcard_dict" />
       </list>
     </recent_temporary>
   </component>
@@ -150,11 +191,20 @@
       <option name="project" value="LOCAL" />
       <updated>1731444593428</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added requirements.txt">
+      <option name="closed" value="true" />
+      <created>1731445374501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731445374501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test_Script for Credit Card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test_Script for Credit Card" />
+    <MESSAGE value="added requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added requirements.txt" />
   </component>
 </project>
